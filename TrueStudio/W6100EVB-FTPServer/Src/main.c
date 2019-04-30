@@ -7,16 +7,16 @@
 
 
 
-wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0x57,0x57,0x25},
-                            .ip = {192,168,177,25},
+wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0xff,0xff,0xff},
+                            .ip = {192,168,100,25},
                             .sn = {255, 255, 255, 0},
-                            .gw = {192, 168, 177, 1},
+                            .gw = {192, 168, 100, 1},
                             .dns = {168, 126, 63, 1},
                             //.dhcp = NETINFO_STATIC,
                             .lla={0xfe,0x80,0x00,0x00,
                                     0x00,0x00, 0x00,0x00,
                                     0x02,0x08, 0xdc,0xff,
-                                    0xfe,0x57, 0x57,0x25},   ///< Source Link Local Address
+                                    0xfe,0xff, 0xff,0xff},   ///< Source Link Local Address
                             .gua={0x00, 0x00, 0x00, 0x00,
                                     0x00, 0x00, 0x00, 0x00,
                                     0x00, 0x00, 0x00, 0x00,
