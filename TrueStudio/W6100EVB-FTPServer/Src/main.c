@@ -7,7 +7,7 @@
 
 
 
-wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0xFF,0xFF,0xFF},
+wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0x57,0x57,0x25},
                             .ip = {192,168,177,25},
                             .sn = {255, 255, 255, 0},
                             .gw = {192, 168, 177, 1},
